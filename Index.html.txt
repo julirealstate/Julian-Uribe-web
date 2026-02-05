@@ -1,0 +1,192 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julián Uribe | Real Estate - Asesor Inmobiliario en Medellín</title>
+    <meta name="description" content="Asesor inmobiliario en Medellín con propósito. Acompaño decisiones de vida importantes para encontrar espacios alineados con tu bienestar. Bienes raíces con propósito Medellín.">
+    <meta name="keywords" content="asesor inmobiliario Medellín, bienes raíces con propósito Medellín, compra venta propiedades Medellín, inversión inmobiliaria consciente">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Agrega un favicon si tienes -->
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Julián Uribe | Real Estate</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#quien-soy">Quién Soy</a></li>
+                <li><a href="#enfoque">Enfoque</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#propiedades">Propiedades</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Los espacios que habitamos también construyen nuestra vida.</h1>
+                <p>Acompaño a personas y familias a encontrar hogares e inversiones alineadas con su propósito, en Medellín.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Quiero encontrar mi hogar</a>
+                    <a href="#contacto" class="btn btn-secondary">Quiero vender con tranquilidad</a>
+                    <a href="https://wa.me/573001234567?text=Hola%20Julián,%20me%20gustaría%20conversar%20sobre%20mi%20búsqueda%20inmobiliaria." class="btn btn-whatsapp" target="_blank">Hablar por WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Placeholder para imagen serena, e.g., una casa en naturaleza -->
+                <img src="https://via.placeholder.com/800x600/808000/FFFFFF?text=Espacio+Sereno" alt="Imagen de un hogar sereno en Medellín">
+            </div>
+        </section>
+
+        <section id="quien-soy" class="section quien-soy">
+            <div class="container">
+                <h2>Más que bienes raíces, decisiones con sentido.</h2>
+                <p>Soy Julián Uribe, asesor inmobiliario en Medellín. Creo profundamente que cada propiedad llega en el momento correcto y que un hogar no se elige solo con la mente, sino también con intención y claridad.<br>Mi trabajo es acompañarte con honestidad, criterio y compromiso para que tomes una decisión segura, consciente y alineada con tu propósito de vida.</p>
+            </div>
+        </section>
+
+        <section id="enfoque" class="section enfoque">
+            <div class="container">
+                <h2>Mi Enfoque</h2>
+                <div class="enfoque-grid">
+                    <div class="enfoque-item">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <h3>Acompañamiento consciente</h3>
+                        <p>No presiono decisiones. Te acompaño a elegir con calma y claridad.</p>
+                    </div>
+                    <div class="enfoque-item">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        <h3>Confianza y transparencia</h3>
+                        <p>Cada proceso se construye desde la verdad y el respeto.</p>
+                    </div>
+                    <div class="enfoque-item">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        <h3>Visión a largo plazo</h3>
+                        <p>Pienso en tu bienestar presente y futuro, no solo en una transacción.</p>
+                    </div>
+                    <div class="enfoque-item">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                        <h3>Servicio con propósito</h3>
+                        <p>Mi trabajo es servir, no vender por vender.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="section servicios">
+            <div class="container">
+                <h2>Cómo puedo acompañarte</h2>
+                <div class="servicios-grid">
+                    <div class="servicio-card">
+                        <h3>Compra de vivienda</h3>
+                        <p>Encuentra el hogar que resuene con tu esencia.</p>
+                    </div>
+                    <div class="servicio-card">
+                        <h3>Venta de propiedades</h3>
+                        <p>Transfiere tu espacio con paz y valor justo.</p>
+                    </div>
+                    <div class="servicio-card">
+                        <h3>Inversión inmobiliaria consciente</h3>
+                        <p>Inversiones alineadas con tu visión financiera y espiritual.</p>
+                    </div>
+                    <div class="servicio-card">
+                        <h3>Asesoría personalizada</h3>
+                        <p>Escucho primero, asesoro después.</p>
+                    </div>
+                </div>
+                <p class="servicios-text">Cada proceso es único. Escucho primero, asesoro después.</p>
+            </div>
+        </section>
+
+        <section id="propiedades" class="section propiedades">
+            <div class="container">
+                <h2>Espacios disponibles para nuevas historias</h2>
+                <p>Propiedades cuidadosamente seleccionadas en Medellín, pensadas para distintos momentos de vida.</p>
+                <div class="propiedades-grid">
+                    <!-- Placeholders para propiedades -->
+                    <div class="propiedad-card">
+                        <img src="https://via.placeholder.com/300x200/808000/FFFFFF?text=Propiedad+1" alt="Propiedad destacada en Medellín">
+                        <h4>Apartamento en El Poblado</h4>
+                        <p>Espacio sereno para familias.</p>
+                    </div>
+                    <div class="propiedad-card">
+                        <img src="https://via.placeholder.com/300x200/808000/FFFFFF?text=Propiedad+2" alt="Propiedad destacada en Medellín">
+                        <h4>Casa en Laureles</h4>
+                        <p>Ideal para inversiones conscientes.</p>
+                    </div>
+                    <div class="propiedad-card">
+                        <img src="https://via.placeholder.com/300x200/808000/FFFFFF?text=Propiedad+3" alt="Propiedad destacada en Medellín">
+                        <h4>Oficina en Centro</h4>
+                        <p>Para emprendedores con propósito.</p>
+                    </div>
+                </div>
+                <a href="#contacto" class="btn btn-primary">Conocer propiedades</a>
+            </div>
+        </section>
+
+        <section id="testimonios" class="section testimonios">
+            <div class="container">
+                <h2>Experiencias reales</h2>
+                <div class="testimonio">
+                    <p>“Sentí confianza desde la primera conversación. Julián nos acompañó con paciencia y claridad en una de las decisiones más importantes de nuestra vida.”</p>
+                    <cite>- Familia Rodríguez, Medellín</cite>
+                </div>
+                <div class="testimonio">
+                    <p>“No fue solo una venta; fue un proceso de alineación con mi propósito. Gracias por la guía serena.”</p>
+                    <cite>- Ana María, Inversionista</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="section cta">
+            <div class="container">
+                <h2>Si sientes que es momento de un cambio, conversemos.</h2>
+                <p>Sin presión. Sin compromiso. Con claridad.</p>
+                <a href="#contacto" class="btn btn-primary">Agendar conversación</a>
+            </div>
+        </section>
+
+        <section id="contacto" class="section contacto">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form id="contact-form">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="tel" name="whatsapp" placeholder="WhatsApp" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <select name="etapa" required>
+                        <option value="">¿En qué etapa estás?</option>
+                        <option value="comprar">Comprar</option>
+                        <option value="vender">Vender</option>
+                        <option value="invertir">Invertir</option>
+                        <option value="explorar">Explorar</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+                <p>Estoy aquí para acompañarte.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Julián Uribe | Real Estate con propósito</p>
+            <p>Medellín, Colombia</p>
+            <div class="social-links">
+                <a href="https://instagram.com/julianuribe" target="_blank">Instagram</a>
+            </div>
+            <p>Cuando el lugar es correcto, todo fluye.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
