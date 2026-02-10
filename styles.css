@@ -32,10 +32,11 @@ html {
 
 body {
   font-family: var(--font-body);
-  background-color: var(--bg-main);
+  background-color: #eef1f6; /* azul muy claro, elegante */
   color: var(--text-main);
   line-height: 1.7;
 }
+
 
 /* =========================
    GLOBAL
@@ -203,12 +204,13 @@ p {
 }
 
 .enfoque-item {
-  background: var(--bg-white);
+  background: #f4f6fa; /* azul claro inspirado en tu marca */
   padding: 35px;
   border-radius: 16px;
-  border: 1px solid var(--border-soft);
+  border: 1px solid rgba(63, 79, 104, 0.18);
   text-align: center;
 }
+
 
 .enfoque-item h3 {
   margin: 18px 0 12px;
