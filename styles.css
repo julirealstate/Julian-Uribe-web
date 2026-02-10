@@ -2,18 +2,23 @@
    VARIABLES & RESET
 ========================= */
 :root {
-  --bg-main: #f7f7f5;
+  --bg-main: #f3f4f6;          /* gris claro elegante */
   --bg-white: #ffffff;
-  --text-main: #1f1f1f;
-  --text-soft: #5f5f5f;
-  --accent: #6b7c5c;        /* verde oliva */
-  --accent-dark: #4f5e45;
-  --gold-soft: #c7b37a;
-  --border-soft: #e5e5e2;
+
+  --text-main: #1c2430;       /* azul oscuro profundo */
+  --text-soft: #5e6773;       /* gris azulado */
+
+  --accent: #3f4f68;          /* azul principal (imagen) */
+  --accent-dark: #2f3c52;
+
+  --gold-soft: #d6bf8c;       /* dorado suave */
+  --border-soft: #e3e6ea;
 
   --font-title: 'Playfair Display', serif;
   --font-body: 'Roboto', sans-serif;
 }
+
+
 
 * {
   margin: 0;
