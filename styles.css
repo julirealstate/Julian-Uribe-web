@@ -197,6 +197,14 @@ p {
 /* =========================
    ENFOQUE
 ========================= */
+.enfoque {
+  background: linear-gradient(
+    to bottom,
+    #eef1f6,
+    #e4e9f2
+  );
+}
+
 .enfoque-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -225,6 +233,10 @@ p {
 /* =========================
    SERVICIOS
 ========================= */
+.servicios {
+  background-color: #f0f3f8; /* azul claro elegante */
+}
+
 .servicios-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -232,10 +244,11 @@ p {
 }
 
 .servicio-card {
-  background: var(--bg-white);
+  background: #ffffff;
   padding: 40px;
   border-radius: 16px;
-  border: 1px solid var(--border-soft);
+  border: 1px solid rgba(63, 79, 104, 0.15);
+
 }
 
 .servicio-card h3 {
